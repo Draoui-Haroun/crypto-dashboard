@@ -67,6 +67,9 @@ lib/
 │
 types/
 └── crypto.ts
+│
+screenshohts/
+└──
 
 ```
 
@@ -120,15 +123,15 @@ Runs the production server.
 
 ## Preview
 
-![Crypto Dashboard](./public/screenshots/screenshot1.png)
+![Crypto Dashboard](.screenshots/Screenshot1.png)
 
 
-![Crypto Details](./public/screenshots/screenshot2.png)
+![Crypto Details](.screenshots/Screenshot2.png)
 
 
-![Crypto Charts](./public/screenshots/screenshot3.png)
+![Crypto Charts](.screenshots/Screenshot3.png)
 
-![Crypto Dashboard Mobile](./public/screenshots/screenshot4.png)
+![Crypto Dashboard Mobile](.screenshots/Screenshot4.png)
 
 ## Responsive Design
 
