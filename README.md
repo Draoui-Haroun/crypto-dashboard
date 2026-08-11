@@ -1,36 +1,175 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Crypto Dashboard
+
+A modern and responsive cryptocurrency dashboard built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Recharts**.
+
+The dashboard allows users to explore cryptocurrency market data, search and filter coins, sort them by different values, view detailed information, manage a personal watchlist, and visualize market data through interactive charts.
+
+## Features
+
+* 📊 Cryptocurrency market overview
+* 🔎 Search cryptocurrencies by name or symbol
+* 📈 Filter coins by gainers and losers
+* ↕️ Sort cryptocurrencies by:
+  * Price: Low → High
+  * Price: High → Low
+  * Name: A → Z
+  * Name: Z → A
+* 📉 Interactive market charts
+* 🪙 Cryptocurrency details pages
+* ⭐ Personal watchlist
+* 🌓 Dark / Light mode
+* 🔄 Refresh cryptocurrency data
+* ⏳ Loading states
+* ⚠️ Error handling
+* 📱 Responsive design
+* ♿ Basic accessibility support
+* ⚡ Performance optimizations with `useMemo`
+
+## Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **Tailwind CSS**
+* **Recharts**
+* **API Fetching**
+* **React Context API**
+
+## Project Structure
+
+```text
+
+app/
+├── components/
+│   ├── CryptoTable.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── MarketCapChart.tsx
+│   ├── Overview.tsx
+│   ├── PerformanceChart.tsx
+│   ├── SearchFilter.tsx
+│   └── Watchlist.tsx
+│
+├── crypto/
+│   └── [id]/
+│       └── page.tsx
+│
+├── globals.css
+├── layout.tsx
+└── page.tsx
+│
+context/
+├── ThemeContext.tsx
+└── WatchlistContext.tsx
+│
+lib/
+└── api.ts
+│
+types/
+└── crypto.ts
+
+```
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
+
+```bash
+
+```
+
+### 2. Navigate to the project
+
+```bash
+cd crypto-dashboard
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run dev
+```
 
-## Learn More
+Runs the development server.
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Creates a production build.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+Runs the production server.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Crypto Dashboard](./public/screenshots/screenshot1.png)
+
+
+![Crypto Details](./public/screenshots/screenshot2.png)
+
+
+![Crypto Charts](./public/screenshots/screenshot3.png)
+
+![Crypto Dashboard Mobile](./public/screenshots/screenshot4.png)
+
+## Responsive Design
+
+The dashboard is designed to work across:
+
+* Desktop
+* Tablet
+* Mobile
+
+The layout, navigation, search controls, tables, charts, and other UI elements adapt to different screen sizes.
+
+## What I Practiced
+
+This project helped me practice and apply:
+
+* Next.js App Router
+* TypeScript types and interfaces
+* React state management
+* React Context API
+* API data fetching
+* Search and filtering
+* Sorting
+* Dynamic routes
+* Data visualization
+* Responsive UI development
+* Dark / Light themes
+* Accessibility
+* Performance optimization
+* Component-based architecture
+* Advanced Tailwind CSS practices
+
+## Project Status
+
+The project is complete and ready for deployment.
+
+## Author
+
+**Haroun Draoui**
+
+Frontend Developer
+
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/draoui-haroun-1b0200413/)
+- GitHub: [GitHub](https://github.com/Draoui-Haroun)
+- Portfolio: [Portfolio](https://portfolio-omega-beige-50.vercel.app/)
