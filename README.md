@@ -123,15 +123,13 @@ Runs the production server.
 
 ## Preview
 
-![Crypto Dashboard](.screenshots/Screenshot1.png)
+![Crypto Dashboard](./screenshots/Screenshot1.png)
 
+![Crypto Details](./screenshots/Screenshot2.png)
 
-![Crypto Details](.screenshots/Screenshot2.png)
+![Crypto Charts](./screenshots/Screenshot3.png)
 
-
-![Crypto Charts](.screenshots/Screenshot3.png)
-
-![Crypto Dashboard Mobile](.screenshots/Screenshot4.png)
+![Crypto Dashboard Mobile](./screenshots/Screenshot4.png)
 
 ## Responsive Design
 
