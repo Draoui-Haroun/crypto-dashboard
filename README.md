@@ -69,7 +69,10 @@ types/
 └── crypto.ts
 │
 screenshohts/
-└──
+├── Screenshot1.png
+├── Screenshot2.png
+├── Screenshot3.png
+└── Screenshot4.png
 
 ```
 
@@ -78,7 +81,7 @@ screenshohts/
 ### 1. Clone the repository
 
 ```bash
-
+git clone https://github.com/Draoui-Haroun/crypto-dashboard.git
 ```
 
 ### 2. Navigate to the project
@@ -163,7 +166,12 @@ This project helped me practice and apply:
 
 ## Project Status
 
-The project is complete and ready for deployment.
+The project is complete and deployed.
+
+## Live Demo
+
+[View Live Demo](https://crypto-dashboard-seven-ecru.vercel.app/)
+
 
 ## Author
 
