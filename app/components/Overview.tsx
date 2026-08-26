@@ -18,10 +18,12 @@ export default function Overview({cryptos}: OverviewProps) {
   );
 
   const marketChange =
-    cryptos.reduce(
-      (total, crypto) => total + crypto.change24h,
-      0
-    ) / cryptos.length;
+    cryptos.length > 0
+      ? cryptos.reduce(
+          (total, crypto) => total + crypto.change24h,
+          0
+        ) / cryptos.length
+      : 0;
 
   return (
     <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -57,8 +59,7 @@ export default function Overview({cryptos}: OverviewProps) {
               : "text-[var(--negative)]"
           }`}
         >
-          {marketChange >= 0 ? "+" : ""}
-          {marketChange.toFixed(2)}%
+          {`${marketChange >= 0 ? "+" : ""}${marketChange.toFixed(2)}%`}
         </h2>
       </div>
     </section>
